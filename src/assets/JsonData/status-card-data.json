@@ -1,0 +1,22 @@
+[
+    {
+        "icon": " bx bx-receipt",
+        "count": "95",
+        "title": "Expéditions"
+    },
+    {
+        "icon": " bx bx-receipt",
+        "count": "98",
+        "title": "Transit"
+    },
+    {
+        "icon": " bx bx-receipt",
+        "count": "32",
+        "title": "Livraisons"
+    },
+    {
+        "icon": "bx bx-receipt",
+        "count": "711",
+        "title": "Factures"
+    }
+]

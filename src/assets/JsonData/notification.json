@@ -1,0 +1,18 @@
+[
+    {
+        "icon": "bx bx-error",
+        "content": "Notification 1"
+    },
+    {
+        "icon": "bx bx-error",
+        "content": "Notification 2"
+    },
+    {
+        "icon": "bx bx-error",
+        "content": "Notification 3"
+    },
+    {
+        "icon": "bx bx-error",
+        "content": "Notification 4"
+    }
+]

@@ -1,0 +1,39 @@
+.minute__form{
+    /* background-color: brown; */
+}
+
+.minute__form .line{
+    display: flex;
+    margin: 25px 0 5px 0;
+}
+
+.minute__form  label{
+    text-align: center;
+}
+
+.minute__form fieldset legend {
+    text-align: center;
+ 
+    padding: 0;
+}
+.minute__form fieldset  {
+ margin: 1px;
+}
+.minute__form section {
+    margin-bottom: 5px;
+}
+
+.minute__form table{
+    font-size: 0.8rem;
+}
+
+.minute__form table td{
+    /* color: var(--main-color); */
+    border-bottom: 1px solid var(--txt-color);
+}
+
+td>input{
+    border-radius: var(--border-radius);
+    text-align: center;
+}
+td > .minute__form .listing{height: 10px; margin-top: 0;}

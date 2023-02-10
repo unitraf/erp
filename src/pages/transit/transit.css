@@ -1,0 +1,16 @@
+.t1_form{
+    
+}
+.t1_form fieldset{
+    padding-bottom: 15px;
+    border: 0;
+    border-top: 1px solid var(--main-color);
+    border-radius: 0;
+}
+
+fieldset.p_none{
+    padding-bottom: 0;
+}
+.t1_form fieldset legend{
+    text-align: center;
+}

@@ -1,0 +1,65 @@
+.footerBar{
+    display: flex;
+    position: fixed;
+    bottom: 0px;
+    justify-content: space-between;
+    align-items: center ;
+
+    /* background-color:white; */
+    /* box-shadow: var(--box-shadow); */
+
+    /* padding: 0 5px; 
+     width: 100%;  */
+     background-color: var(--main-color);
+    color: white;
+}
+.f__left{
+    margin-left: 5px;
+    display: flex;
+  
+   
+}
+.f__right{
+    margin-right: 5px;
+}
+
+.footerBar span{
+    padding: 0 5px;
+}
+
+.footerBar .center{
+    display:"flex";
+     justify-content:"space-around";
+    /* background-color: red; */
+}
+.fonction{
+    color: var(--main-color);
+    /* background-color: white; */
+    margin-inline: 2px  ;
+    color: white;
+    padding: 0 5px;
+    /* border: 1px solid red; */
+    border-radius: 5px;
+    font-size: 0.8rem;
+}
+.fonction:hover{
+    background-color: white;
+   color: var(--main-color);
+   border: 1px solid var(--main-color);
+   cursor: pointer;
+   font-weight: bold;
+
+   margin-top: -5px;
+   padding: 5px;
+}
+
+
+.fonction.active{
+    background-color: white;
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: -5px;
+    padding: 5px;
+}

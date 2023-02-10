@@ -1,0 +1,51 @@
+ /* RenderInput */
+ .inputBox {
+    position: relative;
+    height: 60px;
+    
+  }
+  
+ .inputBox input {
+    width: 100%;
+    padding: 10px 10px;
+    background-color: var(--main-bg);
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+    
+    color: var(--txt-color);
+    /* text-transform: capitalize; */
+    /* font-weight: bold; */
+    /* margin-bottom: 15px; */
+    border: none;
+    background: transparent;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--main-color);
+    outline: none;
+    
+  }
+  
+ .inputBox label {
+    color: var(--txt-color);
+    position: absolute;
+    
+    padding: 10px 15px;
+    
+    pointer-events: none;
+    transition: 0.2s ease-in;
+    
+    /* top: -30px; */
+    left: 5px;
+    color: var(--main-color);
+    font-size: 1rem;
+    font-style: italic;
+  }
+  
+.inputBox input:focus ~ label,
+.inputBox input:valid ~ label {
+    top: -30px;
+    left: 5px;
+    color: var(--main-color);
+    font-size: 1rem;
+    font-style: italic;
+  }
+  

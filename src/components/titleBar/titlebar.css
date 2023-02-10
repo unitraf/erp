@@ -1,0 +1,123 @@
+.titlebar{
+    display: flex;
+    position: fixed;
+    /* width: 100%; */
+    top: 0;
+    justify-content: space-between;
+    align-items: center ;
+    background-color:white;
+    box-shadow: var(--box-shadow);
+    /* color: transparent; */
+    /* padding: 5px ; */
+    /* height: 5vh; */
+
+}
+.left{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.user{
+    color: var(--main-color);
+    font-weight: bold;
+    /* margin-left: 5px; */
+    padding:  5px;
+}
+
+.user:hover{
+    border-radius: 5px;
+    background-color: var(--second-color);
+    color: white;
+    /* padding:  5px; */
+}
+.titlebar img{
+    width: 35px;
+    border-radius: 5px;
+    /* box-shadow: var(--box-shadow); */
+    margin: 2px;
+    /* border: 1px solid var(--main-color);
+    border-radius: 5px; */
+}
+
+.titlebar svg{
+    color: var(--main-color);
+}
+.left svg:hover{
+    /* background-color: red; */
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+     /* border: 1px solid var(--main-color); */
+     /* margin: 2px; */
+}
+.left img:hover{
+    
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+}
+
+.center> input:focus{
+    background-color: red;
+}
+.center .search{
+    margin-left: -30px;
+    /* margin-top: 5px; */
+    padding: 5px;
+   
+}
+
+.search svg{
+    margin-top: 5px;
+}
+.center .search:hover{
+    margin-left: -30px;
+    /* margin-top: 0px; */
+    padding: 0px;
+    background-color: transparent;
+   
+}
+.titlebar span{
+    
+    /* color: var(--main-color); */
+    /* font-weight: bold; */
+}
+
+
+.titlebar span:hover{
+    /* padding:  2px; */
+    border-radius: 5px;
+    /* border: 1px solid white; */
+    background-color:var(--second-color);
+    color: white;
+    cursor: pointer;
+   
+   
+}
+
+ /* .titlebar span:hover, .titlebar svg:hover{
+    padding:  2px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color:var(--second-color);
+    color: white;
+    cursor: pointer;
+   
+   
+}  */
+/* .icon, .icon>i{
+    padding: 5px;
+    background-color: transparent;
+    color: red;
+
+} */

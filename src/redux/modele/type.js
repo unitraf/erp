@@ -1,0 +1,6 @@
+export const ADD_MODELE = 'ADD_MODELE'
+export const DELETE_MODELE = 'DELETE_MODELE'
+export const UPDATE_MODELE = 'UPDATE_MODELE'
+export const GET_MODELE = 'GET_MODELE'
+export const LOAD_MODELES = 'LOAD_MODELES'
+export const LOAD_ERRORS= 'LOAD_ERRORS'

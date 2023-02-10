@@ -1,0 +1,6 @@
+export const ADD_COMPTE = 'ADD_COMPTE'
+export const DELETE_COMPTE = 'DELETE_COMPTE'
+export const UPDATE_COMPTE = 'UPDATE_COMPTE'
+export const GET_COMPTE = 'GET_COMPTE'
+export const LOAD_COMPTES = 'LOAD_COMPTES'
+export const LOAD_ERRORS= 'LOAD_ERRORS'

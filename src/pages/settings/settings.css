@@ -1,0 +1,75 @@
+.transit{
+    font-size: 0.8rem;
+}
+
+.transit .left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 6px 15px 0 0;
+    
+    
+    
+}
+
+.toggle{
+    text-align: center;
+    padding: 0 5px;
+    cursor: pointer;
+    /* font-size: 0.9rem; */
+    
+    color: var(--main-color);
+    border-radius: var(--border-radius);
+    border: 1px solid var(--main-color);
+    margin-bottom: 5px;
+    width: 110px;
+}
+
+.toggle.active{
+    background-color: var(--main-color);
+    color: white;
+    /* border-left: 3px solid var(--main-color);
+    border-radius: 3px; */
+}
+
+.transit .right{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* background-color: red; */
+    margin: 5px 0;
+}
+
+.transit  th{
+    background-color: var(--main-color);
+    border-radius: var(--border-radius);
+    color: white;
+    border: 1px solid var(--main-color);
+}
+.transit td{
+   
+    border-radius: var(--border-radius);
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+    text-align: center;
+}
+
+.transit tr{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-bottom: 2px;
+
+}
+
+.transit tbody tr:hover{
+    /* font-size: 1rem; */
+}
+
+.card li:hover{
+    color: var(--main-color);
+    cursor: pointer;
+    font-weight: bold;
+    /* border-bottom: 1px solid var(--main-color); */
+}

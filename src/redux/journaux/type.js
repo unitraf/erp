@@ -1,0 +1,6 @@
+export const ADD_JOURNAL = 'ADD_JOURNAL'
+export const DELETE_JOURNAL = 'DELETE_JOURNAL'
+export const UPDATE_JOURNAL = 'UPDATE_JOURNAL'
+export const GET_JOURNAL = 'GET_JOURNAL'
+export const LOAD_JOURNAUX = 'LOAD_JOURNAUX'
+export const LOAD_ERRORS= 'LOAD_ERRORS'

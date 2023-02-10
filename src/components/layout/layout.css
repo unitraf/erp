@@ -1,0 +1,29 @@
+.layout{
+    display: flex;
+    /* justify-content: flex-start; */
+color: var(--txt-color) ;
+/* background-image: url("../../assets/images/import.jpg") ;
+background-repeat: no-repeat;
+background-size: cover; */
+/* margin-top: 50px; */
+overflow: hidden;
+
+}
+
+.layout__content{
+   /* height: 100vh; */
+   overflow-y: hidden;
+    width: 100%;
+    /* padding-left: var(--sidebar-width); */
+    /* background-color: var(--second-bg); */
+    /* min-height: 100vh; */
+}
+
+.layout__content-main{
+    padding: 0 10px;
+   
+ }
+
+ .sidebar-width{
+    margin-left: 210px;
+ }

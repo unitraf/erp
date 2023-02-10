@@ -1,0 +1,48 @@
+.formContents{
+    /* margin-top: 50px; */
+}
+
+.formContents .selectBox {
+    position: relative;
+    height: 60px;
+    
+  }
+  
+  .formContents .selectBox select {
+    width: 100%;
+    padding: 10px 10px;
+    background-color: var(--main-bg);
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+    
+    color: var(--txt-color);
+    /* text-transform: capitalize; */
+    /* font-weight: bold; */
+    /* margin-bottom: 15px; */
+    border: none;
+    background: transparent;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--main-color);
+    outline: none;
+    
+  }
+  
+  .formContents .selectBox label {
+    color: var(--txt-color);
+    position: absolute;
+    top: 0;
+    left: 10px;
+    padding: 10px 15px;
+    
+    pointer-events: none;
+    transition: 0.2s ease-in;
+  }
+  
+  .formContents .selectBox select:focus ~ label,
+  .formContents .selectBox select:valid ~ label {
+    top: -30px;
+    left: 5px;
+    color: var(--main-color);
+    font-size: 1rem;
+    font-style: italic;
+  }

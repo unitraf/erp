@@ -1,0 +1,27 @@
+.tarif__form{
+    
+}
+
+.tarif__form .line{
+    display: flex;
+    margin: 25px 0 5px 0;
+}
+
+.tarif__form  label{
+    text-align: center;
+}
+
+.tarif__form fieldset legend {
+    text-align: center;
+ 
+    padding: 0;
+}
+.tarif__form fieldset  {
+ margin: 1px;
+ border: none;
+ border-top: 1px solid var(--main-color);
+ border-radius: 0;
+}
+.tarif__form section {
+    margin-bottom: 5px;
+}

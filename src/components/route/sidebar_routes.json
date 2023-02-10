@@ -1,0 +1,88 @@
+[
+  {
+    "display_name": "Dashboard",
+    "route": "/",
+    "icon": "bx bx-category-alt",
+    "sub_menu": [
+     
+      {
+        "display_name": "Statistiques",
+        "route": "/#",
+        "icon": "bx bx-chevron-right"
+      }
+    ]
+  },
+  {
+    "display_name": "Transit",
+    "route": "/transit",
+    "icon": "bx bx-category-alt",
+    "sub_menu": [
+      {
+        "display_name": "Dossiers",
+        "route": "/dossiers",
+        "icon": "bx bx-chevron-right"
+      },
+      {
+        "display_name": "Carnets",
+        "route": "/carnet",
+        "icon": "bx bx-chevron-right"
+      },
+      {
+        "display_name": "Minute",
+        "route": "/minute",
+        "icon": "bx bx-chevron-right"
+      },
+      {
+        "display_name": "DDU",
+        "route": "/ddu",
+        "icon": "bx bx-chevron-right"
+      },
+      {
+        "display_name": "Exos",
+        "route": "/exo",
+        "icon": "bx bx-chevron-right"
+      },
+      {
+        "display_name": "Clients",
+        "route": "/client",
+        "icon": "bx bx-chevron-right"
+      },
+      {
+        "display_name": "NTS",
+        "route": "/tarif",
+        "icon": "bx bx-chevron-right"
+      }
+    ]
+  },
+  {
+    "display_name": "Facturation",
+    "route": "/transit",
+    "icon": "bx bx-category-alt",
+    "sub_menu": [
+      {
+        "display_name": "Test Fact",
+        "route": "/transit",
+        "icon": "bx bx-chevron-right"
+      }
+    ]
+  },
+ 
+  {
+    "display_name": "Archives",
+    "route": "/folders",
+    "icon": "bx bx-package",
+    "sub_menu": []
+  },
+  {
+    "display_name": "Paramètres",
+    "route": "/settings",
+    "icon": "bx bx-cog",
+    "sub_menu": [
+      {
+        "display_name": "Transit",
+        "route": "/stransit",
+        "icon": "bx bx-chevron-right"
+      }
+    ]
+  }
+]

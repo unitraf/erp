@@ -1,0 +1,115 @@
+/* MODAL */
+.alertBackground {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.alertBody .formContents [class*="col-"] {
+  padding: 0;
+}
+
+.alertContainer {
+  flex: 0 1 30%;
+  box-shadow: var(--box-shadow);
+  display: flex;
+  flex-direction: column;
+
+}
+
+.alertHeader {
+
+  color: var(--txt-white);
+  background-color: var(--main-color);
+
+  padding: 5px 15px;
+  border-radius: var(--border-radius);
+  margin-bottom: 5px;
+}
+
+.alertHeader h2 {
+  margin: 0;
+  color: var(--txt-white);
+}
+
+.actionIcon svg {
+  margin: 5px;
+}
+
+.alertBody .formContents {
+  padding-top: 0;
+}
+
+.alertBody {
+  padding: 15px;
+  background: var(--second-bg);
+
+  min-height: min-content;
+  max-height: max-content;
+
+
+
+  border-radius: var(--border-radius);
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.alertFooter {
+  background: var(--second-bg);
+  padding: 5px;
+  color: var(--txt-white);
+
+  display: flex;
+  justify-content: flex-end;
+
+
+  margin-top: 5px;
+  border-radius: var(--border-radius);
+}
+
+.alertBtn {
+  font-size: 0.8rem;
+  background: var(--main-color);
+  /* padding: 9px 5px; */
+  /* width: 70px; */
+  color: var(--txt-white);
+  border: 0;
+  border-radius: 5px;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  border: 1px solid var(--second-color);
+  /* margin-left: 5px; */
+  /* font-size: 15px; */
+}
+
+.alertFooter .alertBtn {
+  font-size: 0.8rem;
+  background: var(--main-color);
+  padding: 5px 5px;
+  width: 90px;
+  color: var(--txt-white);
+  border: 0;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  border: 1px solid var(--second-color);
+  margin-left: 5px;
+  /* font-size: 15px; */
+}
+
+.alertBtn:hover {
+  background: var(--txt-white);
+  color: var(--main-color);
+  border: 1px solid var(--main-color);
+}
+
+/* END MODAL */
