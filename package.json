@@ -1,7 +1,7 @@
 {
   "homepage": "./",
   "name": "unitraf",
-  "version": "0.0.1",
+  "version": "0.9.0",
   "main": "public/electron.js",
   "private": true,
   "description": "ERP Unitraf ",
@@ -9,8 +9,13 @@
     "name": "Mamane",
     "email": "m.harounagarba@gmail.com"
   },
+  "repository": {
+    "type" : "git", 
+    "url" : "https://github.com/unitraf/erp.git" 
+
+  },
   "build": {
-    "appId": "com.stackacademy.readit",
+    "appId": "com.unitafniger.erp",
     "directories": {
       "buildResources": "build-res"
     },
@@ -25,7 +30,7 @@
         "github"
       ],
       "verifyUpdateCodeSignature": false,
-      "publisherName": "unitraf"
+      "publisherName": "Unitraf"
     },
     "linux": {
       "publish": [
@@ -86,7 +91,7 @@
     "mac": "electron-builder -m",
     "win": "electron-builder build -w",
     "make-cert": "electron-builder create-self-signed-cert -p unitraf",
-    "publish": "electron-builder build -mwl -p onTagOrDraft",
+    "published": "electron-builder build -w -p onTagOrDraft",
     "dev": "concurrently -k \" npm start\" \"npm:electron\"",
     "electron": "wait-on tcp:3000 && electron .",
     "pack": "electron-builder --dir",

@@ -31,6 +31,7 @@ export const listUnite = ["U", "Kg", "L"];
 
 export const initData = {
   reference: "",
+  sommier:"",
   numero: "",
   date: moment().format("YYYY-MM-DD"),
   paysExport: "",

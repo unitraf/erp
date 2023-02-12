@@ -1,6 +1,7 @@
 const path = require("path");
 const fs = require("fs");
-const filePath = "./src/data/data.json";
+// const filePath = "./src/data/data.json";
+const updater = require('./updater')
 
 const { app, BrowserWindow, Menu, ipcMain, dialog } = require("electron");
 const isDev = require("electron-is-dev");
@@ -74,6 +75,15 @@ app.whenReady().then(() => {
 
   // }, 5000);
   createWindow();
+
+  // Check for update after x seconde
+
+  setTimeout(()=>{
+    console.log('====================================');
+    console.log("Check");
+    console.log('====================================');
+    updater.check()
+  } , 2000);
 });
 
 // Quit when all windows are closed, except on macOS. There, it's common
@@ -101,6 +111,7 @@ ipcMain.on("quit", (e, arg) => {
   // dialog.showMessageBox({message:"salut"})
   
   let data = JSON.stringify(arg);
+  const filePath = `${app.getPath("appData")}/data/data.json`;
   fs.writeFile(filePath, data, (err) => {
     if (err) {
       console.log(err);

@@ -18,6 +18,7 @@ export const initData = {
     description: "",
     origine: "",
     provenance: "",
+    nombre:1,
     quantite: "",
     type:"",
     poids: "",

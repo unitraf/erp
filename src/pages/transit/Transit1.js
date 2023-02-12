@@ -105,18 +105,7 @@ const Transit1 = (props) => {
         <legend>Déclaration T1</legend>
         {/* ligne 1 */}
         <div className="col-12" style={{ display: "flex" }}>
-          <div className="inputBox col-2">
-            <input
-              id="reference"
-              value={data.reference}
-              type="number"
-              onChange={handleChange}
-              autoComplete="off"
-              required
-            />
-
-            <label htmlFor={"reference"}>Reférence</label>
-          </div>
+        
           <div className="inputBox col-2">
             <input
               id="numero"
@@ -127,7 +116,7 @@ const Transit1 = (props) => {
               required
             />
 
-            <label htmlFor={"numero"}>Numéro</label>
+            <label htmlFor={"numero"}>N° T1</label>
           </div>
           <div className="inputBox col-3">
             <input
@@ -140,6 +129,18 @@ const Transit1 = (props) => {
             />
 
             <label htmlFor={"date"}>Date</label>
+          </div>
+          <div className="inputBox col-2">
+            <input
+              id="sommier"
+              value={data.sommier}
+              type="text"
+              onChange={handleChange}
+              autoComplete="off"
+              required
+            />
+
+            <label htmlFor={"sommier"}>N° Sommier</label>
           </div>
           <div className="inputBox col-3">
             <input
